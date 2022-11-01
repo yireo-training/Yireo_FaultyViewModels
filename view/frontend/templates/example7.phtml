@@ -1,0 +1,10 @@
+<?php declare(strict_types=1);
+
+use Magento\Framework\View\Element\Template;
+use Yireo\FualtyViewModels\ViewModel\Example7;
+
+/** @var Template $block */
+/** @var Example7 $example */
+$example = $block->getViewModel();
+?>
+<h2>Example: <?= $exampe->getGreeting() ?></h2>
